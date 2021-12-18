@@ -7,10 +7,10 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   extends: [
-    "next/core-web-vitals",
     "standard",
     "plugin:prettier/recommended",
     "plugin:node/recommended",
+    "next/core-web-vitals",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {

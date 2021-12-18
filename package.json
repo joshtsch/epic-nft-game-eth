@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "deploy:rinkeby": "npx hardhat run scripts/deploy.ts --network rinkeby",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-abi": "cp ./artifacts/contracts/MyEpicGame.sol/MyEpicGame.json ./src/MyEpicGame.json"
   },
   "keywords": [],
   "author": "",
